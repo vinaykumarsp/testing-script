@@ -4,8 +4,8 @@ pipeline{
     stage(BDD){
       steps{
         echo "BDD testing"
-        sh "chmod +x ./sscript.sh"
-        sh "./sscript.sh"
+        sh "chmod +x ./behave.sh"
+        sh "./behave.sh"
       }
     }
   }
